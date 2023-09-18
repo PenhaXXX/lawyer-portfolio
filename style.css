@@ -1,0 +1,361 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-image: url(https://cdn.discordapp.com/attachments/1099796720025600000/1153053528001085440/teste-01.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-color: #000000;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.thm-contato button{
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 650;
+    background: #09ff00;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #000000;
+    font-size: 28px; 
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #ff0000;
+}
+
+.thm-contato button:hover{
+    box-shadow: 0px 0px 8px #09ff00;
+    transform: scale(1.05);
+}
+
+/* header style */
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(122, 122, 122);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+   color: #ffffff;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .thm-insta button{
+    padding: 10px 15px;
+    position: relative;
+    right: -487px;
+    font-size: 18px;
+    font-weight: 650;
+    background: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .thm-insta button:hover{
+    box-shadow: 0px 0px 8px #18cc00;
+}
+
+header .thm-whats button{
+    position: relative;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 650;
+    background: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .thm-whats button:hover{
+    box-shadow: 0px 0px 8px #18cc00;
+}
+
+/* topo do site style */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-site h1{
+    color: #fdcd64;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #ffffff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{
+    height: 1000px;
+    position: relative;
+    top: -120px;
+    left: -5px;
+}
+
+/* especialidades */
+
+section.especialidades{
+    padding: 40px 4%;
+    position: relative;
+    top: -623px;
+    background-color: #d8b74c;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: #ffffff;
+    padding: 40px;
+    border: 2px solid #ffffff;
+    margin: 35px;
+    border-radius: 25px;
+    background-color: #000000d8;
+    border-color: #000000;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 32px #059600;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 80px;
+    color: #059600;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+}
+
+.converse button{
+    padding: 3px 10px;
+    font-size: 18px;
+    font-weight: 650;
+    background: #09ff00dc;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.converse button:hover{
+    box-shadow: 0px 0px 8px #09ff00;
+    transform: scale(1.05);
+}
+
+/*  sobre */
+
+section.sobre{
+    padding: 40px 4%;
+    position: relative;
+    top: -600px;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .img-sobre img{
+    height: 600px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.sobre .txt-sobre{
+    color: white;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #d8b74c;
+    display: block;
+} 
+
+.sobre .txt-sobre .thm-marcar button{
+    position: relative;
+    top: 80px;
+    color: #000000;
+    background: #09ff00;
+    margin: 0 290px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+.sobre .txt-sobre .thm-marcar button:hover{
+    box-shadow: 0px 0px 8px #09ff00;
+    transform: scale(1.05);
+}
+
+/* formulario de contato */
+
+section.form{
+    position: relative;
+    top: -575px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.discordapp.com/attachments/1099796720025600000/1152646197148917930/2e1832a1cfe262346b7bca4e2b1c02ab.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+section.form .container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+section.form .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    width: 550px;
+    height: 630px;
+    padding: 10px 45px;  
+    border-radius: 25px;
+    position: relative;
+    top: -10px;
+    background-color: #000000ec;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+section.form .container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -8px;
+}
+
+section.form .container span{
+    color: #fdcd64;
+    font-size: 26px;
+}
+
+section.form .container p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+section.form .container form{
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+}
+
+section.form .container form label{
+    position: relative;
+    right: 13px;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0.8rem;
+}
+
+section.form .container form input{
+    padding: -5px;
+    outline: none;
+    border: 0;
+    margin-bottom: 3px;
+    font-size: 15px;
+    transition: all 0.4s;
+}
+
+section.form .container form input:focus{
+    border-radius: 13px;
+}
+
+section.form .container form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+section.form .container form button{
+    position: relative;
+    left: 185px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: #09ff00;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 900;   
+    padding: 10px 3px;
+    cursor: pointer;
+}
+
+section.form .container form button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #ffffff;
+}
